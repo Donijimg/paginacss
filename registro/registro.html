@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="../nosotros/nosotros.html" target="_blank">About</a></li>
+                    <li><a href="../contacto/contacto.html" target="_blank">Contact</a></li>
+                    <li><a href="../login/login.html">Login</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <form action="lista.html" method="get">
+                            <input type="search" name="busqueda"> 
+                            <button type="submit">Buscar</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+          <h2>¡Bienvenido a Eyes&Summer!</h2>
+        </section>
+      </main>
+    <section>
+        <div container>
+        <form class=bloquesito action="registro/registro-p.html" method="get">
+            <h3>Registro</h3>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" placeholder="Nombre" id="Nombre">
+            <label for="Apellido">Apellido:</label>
+            <input type="text" placeholder="Apellido" id="Apellido">
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Nombre de usuario" id="username">
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="E-mail" id="username">
+            <label for="password">contraseña:</label>
+            <input type="password" id="pass" name="password" minlength="8" required placeholder="contraseña"
+                id="password" />
+            <label for="Numero">Numero de telefono:</label>
+            <input type="tel" placeholder="Numero de telefono" id="Numero">
+            <label for="Direccion">Direccion:</label>
+            <input type="text" placeholder="Direccion" id="Direccion">
+            <label for="Ciudad">Ciudad:</label>
+            <select id="Ciudad">
+                <option value="">-</option>
+                <option value="Arauca">Arauca</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Bogotá">Bogotá</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Cali">Cali</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Cúcuta">Cúcuta</option>
+                <option value="Florencia">Florencia</option>
+                <option value="Ibagué">Ibagué</option>
+                <option value="Leticia">Leticia</option>
+                <option value="Manizales">Manizales</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Mitú">Mitú</option>
+                <option value="Mocoa">Mocoa</option>
+                <option value="Montería">Montería</option>
+                <option value="Neiva">Neiva</option>
+                <option value="Pasto">Pasto</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Popayán">Popayán</option>
+                <option value="Puerto Carreño">Puerto Carreño</option>
+                <option value="Puerto Inírida">Puerto Inírida</option>
+                <option value="Quibdó">Quibdó</option>
+                <option value="Riohacha">Riohacha</option>
+                <option value="San Andrés">San Andrés</option>
+                <option value="San José del Guaviare">San José del Guaviare</option>
+                <option value="Santa Marta">Santa Marta</option>
+                <option value="Sincelejo">Sincelejo</option>
+                <option value="Tunja">Tunja</option>
+                <option value="Valledupar">Valledupar</option>
+                <option value="Villavicencio">Villavicencio</option>
+                <option value="Yopal">Yopal</option>
+            </select>
+            <P>Genero:</P>
+            <input name="botoncito" type="radio" value="" id="Hombre" />
+            <label for="Hombre">Hombre</label>
+            <input name="botoncito" type="radio" value="" id="Mujer" />
+            <label for="Mujer">Mujer</label>
+            <input name="botoncito" type="radio" value="" id="Otro" />
+            <label for="Otro">Otro</label>
+            <label for="Fecha">Fecha de nacimiento:</label>
+            <input type="date" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" id="Fecha" />
+            <button type="submit" value="registrar">Regitro</button>
+        </form>
+    </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Storyset. All rights reserved.</p>
+      </footer>
+</body>
+</html>

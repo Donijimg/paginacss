@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<header>
+    <h1>EYES&SUMMER</h1>
+        <nav>
+          <div>
+              <ul>
+                  <li><a href="../index/index.html" target="_blank">Home</a></li>
+                  <li><a href="../nosotros/nosotros.html" target="_blank">About</a></li>
+                  <li><a href="../contacto/contacto.html" target="_blank">Contact</a></li>
+              </ul>
+          </div>
+          <div>
+              <ul>
+                  <li>
+                      <form action="lista.html" method="get">
+                          <input type="search" name="busqueda"> 
+                          <button type="submit">Buscar</button>
+                      </form>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <main>
+    <section class="banner">
+      <h2>¡Bienvenido a Eyes&Summer!</h2>
+    </section>
+  </main>
+    <form action="login/login-p.html">
+        <div class="container"> 
+            <div class="bloquesito">
+                <div>
+            <label>Usuario:<input type="text" id="Usuario" name="Usuario" placeholder="Usuario" required minlength="8"></label>  <br>
+            <label>Contraseña<input type="password" id="Contraseña" name="Contraseña" required minlength="8"></label><br>
+                </div>
+            <label>Recoradar datos:<input id="datos" name="datos" type="checkbox" checked></label> 
+            <br>
+            <label><a href="../reset-password/reset-password.html">¿Olvidaste tu contraseña?</a></label>
+            <br>
+            <a href="../registro/registro.html">Registrar</a>
+            <br>
+            <button type="submit">Iniciar Sesion</button>
+        </div>
+        </div>
+    </form>
+
+  <footer>
+    <p>&copy; 2024 My Storyset. All rights reserved.</p>
+  </footer>
+</body>
+</html>
